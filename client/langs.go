@@ -4,6 +4,8 @@ package client
 // ^[\s\S]*?value="(.+?)"[\s\S]*?>([\s\S]+?)<[\s\S]*?$
 //     "\1": "\2",
 var Langs = map[string]string{
+	"61": "GNU G++17 9.2.0 (64 bit, msys 2)",
+	"73": "GNU G++20 11.2.0 (64 bit, winlibs)",
 	"43": "GNU GCC C11 5.1.0",
 	"52": "Clang++17 Diagnostics",
 	"42": "GNU G++11 5.1.0",
@@ -54,6 +56,8 @@ var Langs = map[string]string{
 // LangsExt language's ext
 var LangsExt = map[string]string{
 	"GNU C11":               "c",
+	"GNU C++20 (64)":        "cpp",
+	"GNU C++17 (64)":        "cpp",
 	"Clang++17 Diagnostics": "cpp",
 	"GNU C++0x":             "cpp",
 	"GNU C++":               "cpp",
